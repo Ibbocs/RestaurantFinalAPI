@@ -43,15 +43,13 @@ Bu proje, aşağıdaki amaçları hedefler:
 
 API'ye erişim ve kullanım detayları için [API Dökümantasyonu](https://github.com/Ibbocs/RestaurantFinalAPI/wiki) sayfasını inceleyebilirsiniz.
 
-## Katkı Sağlama
-
-Eğer projeye katkıda bulunmak isterseniz, lütfen [Katkı Sağlama Rehberi](CONTRIBUTING.md)ni inceleyin.
-
-## Lisans
-
-Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
-
 ---
 
-Daha fazla bilgi ve yardım için lütfen [İletişim](mailto:contact@example.com) adresinden bizimle iletişime geçin.
+## İletişim
 
+Daha fazla bilgi edinmek, sorular sormak veya projemize katkıda bulunmak isterseniz, aşağıdaki yöntemlerle bizimle iletişime geçebilirsiniz:
+
+- E-posta: [contact@example.com](mailto:contact@example.com)
+- LinkedIn: [İbrahim Huseynov](https://www.linkedin.com/in/ibrahim-huseynov)
+
+Herhangi bir konuda görüşmekten mutluluk duyarız! Sizlerle işbirliği yapmak veya projemiz hakkında daha fazla bilgi almak için iletişime geçmekten çekinmeyin.
