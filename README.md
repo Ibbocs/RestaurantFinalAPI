@@ -1,10 +1,10 @@
 # Restaurant API Projesi
 
-Bu proje, bir restoranın menü öğelerini, kategorilerini, masalarını ve rezervasyonlarını yönetmek için bir ASP.NET 6 Web API uygulamasıdır.
+Bu proje, bir restoranın menü öğelerini, kategorilerini, masalarını ve rezervasyonlarını yönetmek için bir ASP.NET Core 3.1 Web API uygulamasıdır.
 
 ## Kullanılan Teknolojiler ve Prensipler
 
-- ASP.NET 6
+- ASP.NET Core 3.1 Web API
 - Entity Framework Core
 - Serilog
 - Onion Architecture
