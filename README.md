@@ -41,7 +41,7 @@ Bu proje, aşağıdaki amaçları hedefler:
 
 ## API Dökümantasyonu
 
-API'ye erişim ve kullanım detayları için [API Dökümantasyonu](docs/api-docs.md) sayfasını inceleyebilirsiniz.
+API'ye erişim ve kullanım detayları için [API Dökümantasyonu](https://localhost:7085/swagger) sayfasını inceleyebilirsiniz.
 
 ## Katkı Sağlama
 
