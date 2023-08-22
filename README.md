@@ -1,55 +1,55 @@
-# Restaurant API Projesi
+# Restaurant API Project
 
-Bu proje, bir restoranın menü öğelerini, kategorilerini, masalarını ve rezervasyonlarını yönetmek için bir ASP.NET Core 3.1 Web API uygulamasıdır.
+This project is an ASP.NET Core 3.1 Web API application designed to manage a restaurant's menu items, categories, tables, and reservations.
 
-## Kullanılan Teknolojiler ve Prensipler
+## Technologies and Principles Used
 
 - ASP.NET Core 3.1 Web API
 - Entity Framework Core
 - Serilog
 - Onion Architecture
-- JWT tabanlı Kimlik Doğrulama ve Yetkilendirme
-- SOLID Prensiplerine Uygun Tasarım
+- JWT-based Authentication and Authorization
+- Design following SOLID Principles
 - AutoMapper
 - Generic Custom Exception Handling
 - Repository Pattern
 - Unit of Work Pattern
-- Generic Response Modelleri
+- Generic Response Models
 - Fluent Validation
-- Yumuşak Silme (Soft Delete)
+- Soft Delete
 - Global Exception Handler Middleware
-- Cross-Origin Resource Sharing (CORS) Politikaları
+- Cross-Origin Resource Sharing (CORS) Policies
 
-## Proje Amaçları
+## Project Objectives
 
-Bu proje, aşağıdaki amaçları hedefler:
+This project aims to achieve the following objectives:
 
-- Kullanıcılara restoranın menü öğelerini ve kategorilerini görüntüleme olanağı sunar.
-- Kullanıcılara mevcut masaların durumlarını (dolu, boş veya rezerve) gösterir.
-- Kayıtlı olmayan kullanıcılar menü öğelerini ve kategorilerini görüntüleyebilir, masaların durumunu görebilir.
-- Kayıtlı kullanıcılar rezervasyon yapabilir.
-- Admin kullanıcıları, rezervasyonları onaylayabilir veya reddedebilir.
-- Admin kullanıcıları, menü öğelerini, kategorileri, masaları ve diğer detayları düzenleyebilir.
+- Provide users with the ability to view restaurant menu items and categories.
+- Display the status of existing tables (occupied, vacant, or reserved) to users.
+- Allow unregistered users to view menu items, categories, and table statuses.
+- Enable registered users to make reservations.
+- Admin users can approve or reject reservations.
+- Admin users can manage menu items, categories, tables, and other details.
 
-## Kurulum
+## Installation
 
-1. Bu depoyu yerel bilgisayarınıza klonlayın.
-2. Gerekli bağımlılıkları yükleyiniz. (dotnet restore)
-3. Veritabanını oluşturmak ve örnek verileri eklemek. (dotnet ef database update ve dotnet run seed)
-4. Uygulamayı başlatmak için aşağıdaki komutu çalıştırın (dotnet run)
-5. API, `https://localhost:7085` adresinde çalışmaya başlayacaktır.
+1. Clone this repository to your local machine.
+2. Install the necessary dependencies (dotnet restore).
+3. Create the database and seed sample data (dotnet ef database update and dotnet run seed).
+4. Start the application by running the following command (dotnet run).
+5. The API will start running at `https://localhost:7085`.
 
-## API Dökümantasyonu
+## API Documentation
 
-API'ye erişim ve kullanım detayları için [API Dökümantasyonu](https://github.com/Ibbocs/RestaurantFinalAPI/wiki) sayfasını inceleyebilirsiniz.
+For access and usage details of the API, refer to the [API Documentation](https://github.com/Ibbocs/RestaurantFinalAPI/wiki) page.
 
 ---
 
-## İletişim
+## Contact
 
-Daha fazla bilgi edinmek, sorular sormak veya projemize katkıda bulunmak isterseniz, aşağıdaki yöntemlerle bizimle iletişime geçebilirsiniz:
+For more information, questions, or if you'd like to contribute to the project, you can contact us through the following methods:
 
-- E-posta: [ibrahusey0@gmail.com](mailto:ibrahusey0@gmail.com)
+- Email: [ibrahusey0@gmail.com](mailto:ibrahusey0@gmail.com)
 - LinkedIn: [İbrahim Huseynov](https://www.linkedin.com/in/ibrahim-huseynov)
 
-Herhangi bir konuda görüşmekten mutluluk duyarız! Sizlerle işbirliği yapmak veya projemiz hakkında daha fazla bilgi almak için iletişime geçmekten çekinmeyin.
+We'd be happy to connect with you for any inquiries! Feel free to reach out to collaborate or learn more about our project.
