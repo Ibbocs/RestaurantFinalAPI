@@ -49,7 +49,7 @@ API'ye erişim ve kullanım detayları için [API Dökümantasyonu](https://gith
 
 Daha fazla bilgi edinmek, sorular sormak veya projemize katkıda bulunmak isterseniz, aşağıdaki yöntemlerle bizimle iletişime geçebilirsiniz:
 
-- E-posta: [contact@example.com](mailto:contact@example.com)
+- E-posta: [contact@example.com](ibrahusey0@gmail.com)
 - LinkedIn: [İbrahim Huseynov](https://www.linkedin.com/in/ibrahim-huseynov)
 
 Herhangi bir konuda görüşmekten mutluluk duyarız! Sizlerle işbirliği yapmak veya projemiz hakkında daha fazla bilgi almak için iletişime geçmekten çekinmeyin.
