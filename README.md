@@ -34,4 +34,24 @@ Bu proje, aşağıdaki amaçları hedefler:
 ## Kurulum
 
 1. Bu depoyu yerel bilgisayarınıza klonlayın.
-2. Gerekli bağımlılıkları yüklemek için aşağıdaki komutu çalıştırın:
+2. Gerekli bağımlılıkları yükleyiniz. (dotnet restore)
+3. Veritabanını oluşturmak ve örnek verileri eklemek. (dotnet ef database update ve dotnet run seed)
+4. Uygulamayı başlatmak için aşağıdaki komutu çalıştırın (dotnet run)
+5. API, `https://localhost:7085` adresinde çalışmaya başlayacaktır.
+
+## API Dökümantasyonu
+
+API'ye erişim ve kullanım detayları için [API Dökümantasyonu](docs/api-docs.md) sayfasını inceleyebilirsiniz.
+
+## Katkı Sağlama
+
+Eğer projeye katkıda bulunmak isterseniz, lütfen [Katkı Sağlama Rehberi](CONTRIBUTING.md)ni inceleyin.
+
+## Lisans
+
+Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
+
+---
+
+Daha fazla bilgi ve yardım için lütfen [İletişim](mailto:contact@example.com) adresinden bizimle iletişime geçin.
+
