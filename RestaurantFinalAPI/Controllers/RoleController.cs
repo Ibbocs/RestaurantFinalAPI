@@ -19,6 +19,10 @@ namespace RestaurantFinalAPI.Controllers
             _roleService = roleService;
         }
 
+        /// <summary>
+        /// Gets all roles.
+        /// </summary>
+        /// <remarks>URL: GET /api/Role</remarks>
         [HttpGet]
         public async Task<IActionResult> GetRoles()
         {
@@ -26,6 +30,11 @@ namespace RestaurantFinalAPI.Controllers
             return StatusCode(result.StatusCode, result);
         }
 
+        /// <summary>
+        /// Gets a specific role by ID.
+        /// </summary>
+        /// <param name="id">ID of the role</param>
+        /// <remarks>URL: GET /api/Role/{id}</remarks>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetRoles(string id)
         {
@@ -33,6 +42,11 @@ namespace RestaurantFinalAPI.Controllers
             return StatusCode(result.StatusCode, result);
         }
 
+        /// <summary>
+        /// Creates a new role.
+        /// </summary>
+        /// <param name="name">Name of the role</param>
+        /// <remarks>URL: POST /api/Role</remarks>
         [HttpPost()]
         public async Task<IActionResult> CreateRole(string name)
         {
@@ -40,6 +54,12 @@ namespace RestaurantFinalAPI.Controllers
             return StatusCode(result.StatusCode, result);
         }
 
+        /// <summary>
+        /// Updates an existing role.
+        /// </summary>
+        /// <param name="id">ID of the role</param>
+        /// <param name="name">New name for the role</param>
+        /// <remarks>URL: PUT /api/Role/{id}</remarks>
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateRole(string id, string name)
         {
@@ -47,6 +67,11 @@ namespace RestaurantFinalAPI.Controllers
             return StatusCode(result.StatusCode, result);
         }
 
+        /// <summary>
+        /// Deletes a role.
+        /// </summary>
+        /// <param name="id">ID of the role to delete</param>
+        /// <remarks>URL: DELETE /api/Role/{id}</remarks>
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteRole(string id)
         {
