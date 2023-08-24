@@ -8,7 +8,9 @@ This project is an ASP.NET Core 3.1 Web API application designed to manage a res
 - Entity Framework Core
 - Serilog
 - Onion Architecture
-- JWT-based Authentication and Authorization
+- JWT-based Token
+- Refresh Token
+- Microsoft Identity
 - Design following SOLID Principles
 - AutoMapper
 - Generic Custom Exception Handling
