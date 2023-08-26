@@ -1,10 +1,10 @@
 # Restaurant API Project
 
-This project is an ASP.NET Core 3.1 Web API application designed to manage a restaurant's menu items, categories, tables, and reservations.
+This project is an ASP.NET Core 6 Web API application designed to manage a restaurant's menu items, categories, tables, and reservations.
 
 ## Technologies and Principles Used
 
-- ASP.NET Core 3.1 Web API
+- ASP.NET Core 6 Web API
 - Entity Framework Core
 - Serilog
 - Seq
