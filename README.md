@@ -49,9 +49,9 @@ For access and usage details of the API, refer to the [API Documentation](https:
 ## API Azur Deployment
 
 For access and usage details of the API, refer to the [API Documentation](https://github.com/Ibbocs/RestaurantFinalAPI/wiki) page.
-I have deployed my project to Azure! Those who want to use my project can access it from [here](https://restaurantfinalapi20230826185939.azurewebsites.net/).
-Please note that you should fill in the remaining part of the URL yourself.
-Example: https://restaurantfinalapi20230826185939.azurewebsites.net/api/Table/GetAllTable?isDelete=false
+-I have deployed my project to Azure! Those who want to use my project can access it from [here](https://restaurantfinalapi20230826185939.azurewebsites.net/).
+-Please note that you should fill in the remaining part of the URL yourself.
+-Example: https://restaurantfinalapi20230826185939.azurewebsites.net/api/Table/GetAllTable?isDelete=false
 
 ---
 
