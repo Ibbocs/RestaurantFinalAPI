@@ -54,6 +54,11 @@ Please note that you should fill in the remaining part of the URL yourself.
 
 Example: https://restaurantfinalapi20230826185939.azurewebsites.net/api/Table/GetAllTable?isDelete=false
 
+
+## API Swagger UI
+
+Explore and interact with our API effortlessly using Swagger! Access the API documentation through the [Swagger UI link](https://restaurantfinalapi20230826185939.azurewebsites.net/swagger/index.html). Swagger provides an intuitive interface to test endpoints, review request payloads, and view response data. Simplify your API experience with Swagger and discover seamless ways to integrate with our services.
+
 ---
 
 ## Contact
