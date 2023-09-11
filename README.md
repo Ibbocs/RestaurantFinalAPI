@@ -1,14 +1,17 @@
 # Restaurant API Project
 
-This project is an ASP.NET Core 3.1 Web API application designed to manage a restaurant's menu items, categories, tables, and reservations.
+This project is an ASP.NET Core 6 Web API application designed to manage a restaurant's menu items, categories, tables, and reservations.
 
 ## Technologies and Principles Used
 
-- ASP.NET Core 3.1 Web API
+- ASP.NET Core 6 Web API
 - Entity Framework Core
 - Serilog
+- Seq
 - Onion Architecture
-- JWT-based Authentication and Authorization
+- JwtBearer Token
+- Refresh Token
+- Microsoft Identity
 - Design following SOLID Principles
 - AutoMapper
 - Generic Custom Exception Handling
@@ -42,6 +45,19 @@ This project aims to achieve the following objectives:
 ## API Documentation
 
 For access and usage details of the API, refer to the [API Documentation](https://github.com/Ibbocs/RestaurantFinalAPI/wiki) page.
+
+## API Azur Deployment
+
+I have deployed my project to Azure! Those who want to use my project can access it from [here](https://restaurantfinalapi20230826185939.azurewebsites.net/).
+
+Please note that you should fill in the remaining part of the URL yourself.
+
+Example: https://restaurantfinalapi20230826185939.azurewebsites.net/api/Table/GetAllTable?isDelete=false
+
+
+## API Swagger UI
+
+Explore and interact with our API effortlessly using Swagger! Access the API documentation through the [Swagger UI link](https://restaurantfinalapi20230826185939.azurewebsites.net/swagger/index.html). Swagger provides an intuitive interface to test endpoints, review request payloads, and view response data. Simplify your API experience with Swagger and discover seamless ways to integrate with our services.
 
 ---
 
